@@ -5,7 +5,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("navbarjs").style.height = "80px";
    // document.getElementById("logojs").style.width = "50%";
-    document.getElementById("logojs").src="images/logoBreve.png";
+    document.getElementById("logojs").src="images\Logobreve.png";
     //change image g&g
   } else {
     document.getElementById("navbarjs").style.height = "150px";
