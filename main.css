@@ -93,7 +93,7 @@ body{
     margin-top: -22%;
     z-index: 0;
     animation: rotateIn;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 
 }
 .rebecca:hover{
@@ -109,7 +109,7 @@ body{
     margin-top: -20%;
     z-index: 0;
     animation: rotateIn;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 .magna-grecia:hover{
     transform: scale(1.15);
@@ -123,7 +123,7 @@ body{
     margin-top: 5%;
     z-index: 0;
     animation: rotateIn;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 .marea:hover{
 
@@ -138,7 +138,7 @@ body{
     margin-top: -20%;
     z-index: 0;
     animation: rotateIn;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
    
     
 }
@@ -152,7 +152,7 @@ body{
     margin-left: -15%;
     margin-top: 2%;
     animation: rotateIn;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 .marako:hover{
     transform: scale(1.15);   
@@ -165,9 +165,10 @@ body{
     width: 15%;
     margin-left: 2%;
     margin-top: 4%;
-    animation: rotateIn;
-    animation-duration: 2s;
     background: rgba(0, 0, 0, 0.472);
+    animation: rotateIn;
+    animation-duration: 1.5s;
+    
 }
 .timberland:hover{
     transform: scale(1.15);   
@@ -180,12 +181,25 @@ body{
     margin-left: -45%;
     background:rgba(0, 0, 0, 0.315);
     animation: rotateIn;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 .antica_murrina:hover{
     transform: scale(1.15);   
     transition-duration: 0.5s;
 }
+
+.anellissimi{
+    width:15%;
+    margin-top: 25%;
+    margin-left: 5%;
+    animation: rotateIn;
+    animation-duration: 1.5s;
+}
+.anellissimi:hover{
+    transform: scale(1.15);   
+    transition-duration: 0.5s;
+}
+
 
 /* visibilità dei singolo oggetto */
 

@@ -27,12 +27,14 @@ function scrollFunction() {
       element[i].classList.add('marea');
       if(element[i]==3)
       element[i].classList.add('bysimon');
-      if(element[i]==3)
-      element[i].classList.add('marako');
       if(element[i]==4)
-      element[i].classList.add('timberland');
+      element[i].classList.add('marako');
       if(element[i]==5)
+      element[i].classList.add('timberland');
+      if(element[i]==6)
       element[i].classList.add('antica_murrina');
+      if(element[i]==7)
+      element[i].classList.add('anellissimi');
 
       element[i].classList.remove('visible');
     }
