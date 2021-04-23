@@ -5,7 +5,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("navbarjs").style.height = "80px";
    // document.getElementById("logojs").style.width = "50%";
-    document.getElementById("logojs").src="images\Logobreve.png";
+    document.getElementById("logojs").src="images/Logobreve.png";
     //change image g&g
   } else {
     document.getElementById("navbarjs").style.height = "150px";
@@ -19,7 +19,21 @@ function scrollFunction() {
     const element = document.querySelectorAll(".my-element");
     var i;
     for (i = 0; i < element.length; i++) {
-      element[i].classList.add('animate__animated', 'animate__rotateIn');
+      if(element[i]==0)
+      element[i].classList.add('rebecca');
+      if(element[i]==1)
+      element[i].classList.add('magna-grecia');
+      if(element[i]==2)
+      element[i].classList.add('marea');
+      if(element[i]==3)
+      element[i].classList.add('bysimon');
+      if(element[i]==3)
+      element[i].classList.add('marako');
+      if(element[i]==4)
+      element[i].classList.add('timberland');
+      if(element[i]==5)
+      element[i].classList.add('antica_murrina');
+
       element[i].classList.remove('visible');
     }
   }

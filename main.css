@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding:0px;
+    text-decoration: none !important;
 }
 body{
     background: whitesmoke;
@@ -16,11 +17,11 @@ body{
 }
 
 
-.logo{ 
-    
+.logo{
+
     /*border: solid black;
     width: 60%; */
-    
+
     margin-left:80px;
 }
 
@@ -37,13 +38,15 @@ body{
 }
 
 .immagini{
-    
+
     background:white;
 }
 
+/* bordo colorato fastidioso di bootstrap del carosello*/
+
 .margine{
     --bs-gutter-x:0;
-    
+
 }
 
 .altezza-carosello >div >img{
@@ -72,7 +75,8 @@ body{
     }
 }
 
-/*seconda Pagina*/
+/* Marche e loghi*/
+/* La soluzione che mi viene in mente è mettere l'animation nel css, fare diverse classi e vedere se funziona meglio così */
 
 .foto-marche{
     position: relative;
@@ -85,57 +89,124 @@ body{
 .rebecca{
     background-color: rgba(255, 255, 255, 0.527);
     width: 15%;
-    margin-left: -18% ;
+    margin-left: -17% ;
     margin-top: -22%;
     z-index: 0;
+    animation: rotateIn;
+    animation-duration: 2s;
+
 }
 .rebecca:hover{
-    transform: scale(1.15);   
-    transition-duration: 0.2s;
-}
 
+
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+}
 
 .magna-grecia{
     width: 10%;
-    margin-left: -45%;
+    margin-left: -47%;
     margin-top: -20%;
     z-index: 0;
+    animation: rotateIn;
+    animation-duration: 2s;
 }
 .magna-grecia:hover{
-    transform: scale(1.15);   
-    transition-duration: 0.2s;
+    transform: scale(1.15);
+    transition-duration: 0.5s;
 }
 
 
 .marea{
-    width: 20%;
-    margin-left: -12%;
+    width: 15%;
+    margin-left: -11%;
     margin-top: 5%;
     z-index: 0;
+    animation: rotateIn;
+    animation-duration: 2s;
 }
 .marea:hover{
-    
-    transform: scale(1.15);   
-    transition: ease-in;
-    transition-duration: 0.2s;
+
+    transform: scale(1.15);
+   
+    transition-duration: 0.5s;
 }
 
-.visible{
+.bysimon{
+    width: 20%;
+    margin-left: -3%;
+    margin-top: -20%;
+    z-index: 0;
+    animation: rotateIn;
+    animation-duration: 2s;
+   
     
+}
+.bysimon:hover{
+    transform: scale(1.15);   
+    transition-duration: 0.5s;
+}
+
+.marako{
+    width: 12%;
+    margin-left: -15%;
+    margin-top: 2%;
+    animation: rotateIn;
+    animation-duration: 2s;
+}
+.marako:hover{
+    transform: scale(1.15);   
+    transition-duration: 0.5s;
+}
+
+
+
+.timberland{
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 4%;
+    animation: rotateIn;
+    animation-duration: 2s;
+    background: rgba(0, 0, 0, 0.472);
+}
+.timberland:hover{
+    transform: scale(1.15);   
+    transition-duration: 0.5s;
+}
+
+.antica_murrina{
+    width:20%;
+    margin-top: 25%;
+    margin-left: -45%;
+    background:rgba(0, 0, 0, 0.315);
+    animation: rotateIn;
+    animation-duration: 2s;
+}
+.antica_murrina:hover{
+    transform: scale(1.15);   
+    transition-duration: 0.5s;
+}
+
+/* visibilità dei singolo oggetto */
+
+.visible{
+
     display: none;
     visibility: hidden;
 }
 .hidden{
     visibility: hidden;
 }
+
+/* ID di Javascript per modificare la navbar e logo*/
+
 #navbarjs{
     height: 150px;
     transition: 0.5s;
 }
  #logojs {
     width: 60%;
-    
-    
+
+
     transition: 3s;
   }
-  
