@@ -277,6 +277,38 @@ body{
    } 
 
   }
+
+/* CONTATTI */
+.contatti-color{
+    background:rgb(212, 212, 212);
+    height: 500px;
+    margin-top: 5%;
+
+}
+
+
+.contatti{
+    
+    font-size: 20pt;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-weight:500;
+      
+}
+
+.mappa{
+    width: 40%;
+    height: 350px;
+    margin-top: 1%;
+}
+
+.social{
+    font-size: 20pt;
+    font-family:Arial, Helvetica, sans-serif;  
+    float: right ;
+    margin-right: 30%;   
+}
+
 /* ID di Javascript per modificare la navbar e logo*/
 
 #navbarjs{
