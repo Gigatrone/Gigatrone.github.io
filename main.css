@@ -280,9 +280,9 @@ body{
 
 /* CONTATTI */
 .contatti-color{
-    background:rgb(212, 212, 212);
+    background:rgb(214, 214, 214);
     height: 500px;
-    margin-top: 5%;
+    margin-top: 15%;
 
 }
 
@@ -307,6 +307,23 @@ body{
     font-family:Arial, Helvetica, sans-serif;  
     float: right ;
     margin-right: 30%;   
+}
+
+.logo-insta{
+    width: 25%;
+    
+  
+}
+.instagram{
+    width: 15%;
+    float: right;
+    margin-right: 25%;
+    margin-top: 5%;
+    color: black;
+}
+
+.instagram:hover{
+    color: rgb(97, 96, 96);
 }
 
 /* ID di Javascript per modificare la navbar e logo*/
