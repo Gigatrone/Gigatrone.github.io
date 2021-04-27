@@ -201,7 +201,7 @@ body{
 }
 
 
-/* visibilità dei singolo oggetto */
+/* visibilità dei singolo oggetto + bordo */
 
 .visible{
 
@@ -212,6 +212,71 @@ body{
     visibility: hidden;
 }
 
+.bordo{
+    border: solid black;
+}
+
+/*presentazione prodotti*/
+
+.presentazione{
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.presentazione > img{
+    width: 20%;
+    margin: 1%;
+    
+}
+@media (min-width: 800px){
+.presentazione > img:hover{
+    transform: scale(1.5);   
+    transition-duration: 0.5s;
+}
+}
+
+@media (max-width: 800px){
+    .presentazione >img:active{
+        transform: scale(1.5);   
+        transition-duration: 0.5s;
+    }
+}
+
+@media (max-width: 800px) {
+    .presentazione {
+     display: flex; 
+     flex-wrap: wrap;  
+     
+      
+    }
+    .presentazione > img{
+        width: 10%;
+    }
+    .primacolonna{
+        flex: 40%;
+    }
+    .secondacolonna{
+        flex: 40%;
+        
+    }
+  }
+
+  /*presentazione marche nomi */
+ 
+  .topper-margin{
+      margin-top: -8%;
+  }
+  .rebeccapresmar{
+    width:25%;
+    
+  }
+  @media (max-width: 800px) {
+   .rebeccapresmar{
+    min-width: 40%;
+   } 
+
+  }
 /* ID di Javascript per modificare la navbar e logo*/
 
 #navbarjs{

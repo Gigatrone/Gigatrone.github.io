@@ -7,7 +7,8 @@
     <title>Gioie & Gioielli Cortese</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="onscroll.js"></script>
+    <script src="onclick.js"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.css">
 </head>
@@ -42,7 +43,7 @@
 
             <ul class="navbar-nav distanza-nav scritta" >
               <li class="nav-item" >
-                <a class="nav-link" href="#">Magna Grecia</a>
+                <a class="nav-link" href="#">Contatti</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Altro</a>
@@ -67,13 +68,13 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide  " data-bs-ride="carousel" >
                     <div class="carousel-inner altezza-carosello">
                         <div class="carousel-item active">
-                        <img  src="images/Tropea.jpg" class="d-block w-100" alt="...">
+                        <img  src="images/peperoncino.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img src="images/tropeanotte.jpg" class="d-block w-100" alt="..." >
+                        <img src="images/peperoncino.jpg" class="d-block w-100" alt="..." >
                         </div>
                         <div class="carousel-item">
-                        <img src="images/landscapes-italy-calabria-tropea-chiesetta-di-s-maria-dellisola-1920x1080-41675.jpg" class="d-block w-100" alt="...">
+                        <img src="images/peperoncino.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
@@ -99,23 +100,135 @@
 
     <!-- inizio seconda page -->
 
-    <div class="container-xl bordo ">
+    <div class="container-xl ">
 
     <p> <img class=" shadow foto-marche sfondofade hidden" src="images/Tropea2page.jpg" id="marchi">
 
-        <a href="#"> <img class=" my-element visible rebecca" src="loghi/logorebecca.png"> </a>
-        <a href="#"> <img class=" my-element visible magna-grecia " src="loghi/magnagrecia.jpg" ></a>
-        <a href="#"> <img class=" my-element visible marea " src="loghi/Marea.png" ></a>
-        <a href="#"> <img class=" my-element visible bysimon" src="loghi/bysimon.png"> </a>
-        <a href="#"> <img class=" my-element visible marako" src="loghi/logo-marakò.jpg"> </a>
-        <a href="#"> <img class=" my-element visible timberland" src="loghi/timberland-full-logo-white.svg"> </a>
-        <a href="#"> <img class=" my-element visible antica_murrina" src="loghi/antica_murrina.png"> </a>
-        <a href="#"> <img class=" my-element visible anellissimi" src="loghi/anellissimi.png"> </a>
-        <!-- Manca anellissimi, jode, e altri-->
-       
-
-
+        <a > <img class=" my-element visible rebecca" src="loghi/logorebecca.png" onclick="onclicker('rebecca')"> </a>
+        <a > <img class=" my-element visible magna-grecia " src="loghi/magnagrecia.jpg" onclick="onclicker('magnagrecia')"></a>
+        <a > <img class=" my-element visible marea " src="loghi/Marea.png" onclick="onclicker('marea')" ></a>
+        <a > <img class=" my-element visible bysimon" src="loghi/bysimon.png" onclick="onclicker('bysimon')"> </a>
+        <a > <img class=" my-element visible marako" src="loghi/logo-marako.jpg" onclick="onclicker('maraco')"> </a>
+        <a > <img class=" my-element visible timberland" src="loghi/timberland-full-logo-white.svg" onclick="onclicker('timberland')"> </a>
+        <a > <img class=" my-element visible antica_murrina" src="loghi/antica_murrina.png" onclick="onclicker('antica_murrina')"> </a>
+        <a > <img class=" my-element visible anellissimi" src="loghi/anellissimi.png" onclick="onclicker('anellissimi')"> </a>
+        <!-- Manca rossoamante, blu amante, jode, e altri-->
+                                                                                                                                           
     </p>
+  </div>
+
+    <div class="container-fluid topper-margin">
+
+    <div class="container-md  rebeccapres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      </p>
+
+    </div>
+
+    <div class="container-md  magnagreciapres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      magna-grecia
+      </p>
+
+    </div>
+
+    <div class="container-md  mareapres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      marea
+      </p>
+
+    </div>
+
+    <div class="container-md  bysimonpres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      bysimon
+      </p>
+
+    </div>
+
+    <div class="container-md  maracopres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      maraco
+      </p>
+
+    </div>
+
+    <div class="container-md  timberlandpres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      timberland
+      </p>
+
+    </div>
+
+    <div class="container-md  antica_murrinapres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      antica_murrina
+      </p>
+
+    </div>
+
+    <div class="container-md  anellissimipres visible">
+      <p class="text-center"><img class="rebeccapresmar" src="loghi/logorebecca.png"></p> 
+      <p class="presentazione"> 
+        <img class="shadow primacolonna" src="rebeccaprod/1.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/2.jpg">
+        <img class="shadow primacolonna" src="rebeccaprod/3.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/4.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/5.jpg">
+        <img class="shadow secondacolonna" src="rebeccaprod/6.jpg">
+      </p>
+      anellissimi
+    </div>
+
   </div>
 
 
