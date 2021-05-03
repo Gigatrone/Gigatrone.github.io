@@ -124,6 +124,7 @@ body{
     z-index: 0;
     animation: rotateIn;
     animation-duration: 1.5s;
+    -moz-margin-start: -50%;
 }
 .marea:hover{
 
@@ -134,11 +135,13 @@ body{
 
 .bysimon{
     width: 20%;
+    
     margin-left: -3%;
     margin-top: -20%;
     z-index: 0;
     animation: rotateIn;
     animation-duration: 1.5s;
+    -moz-margin-start:-38%;
    
     
 }
@@ -153,6 +156,7 @@ body{
     margin-top: 2%;
     animation: rotateIn;
     animation-duration: 1.5s;
+    -moz-margin-start: -33%;
 }
 .marako:hover{
     transform: scale(1.15);   
@@ -168,6 +172,7 @@ body{
     background: rgba(0, 0, 0, 0.472);
     animation: rotateIn;
     animation-duration: 1.5s;
+    -moz-margin-start: -18%;
     
 }
 .timberland:hover{
@@ -194,6 +199,7 @@ body{
     margin-left: 5%;
     animation: rotateIn;
     animation-duration: 1.5s;
+    -moz-margin-start: -20%;
 }
 .anellissimi:hover{
     transform: scale(1.15);   
