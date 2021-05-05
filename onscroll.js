@@ -54,7 +54,6 @@ function scrollFunction() {
     const sfondofade = document.querySelector(".sfondofade");
     sfondofade.classList.remove('hidden', 'animate__animated', 'animate__fadeOutLeft','hidden');
     sfondofade.classList.add('animate__animated', 'animate__fadeInLeft');
-
   }
   else
   {

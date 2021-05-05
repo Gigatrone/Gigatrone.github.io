@@ -268,19 +268,36 @@ body{
     }
   }
 
+  .primacolonna{
+      
+  }
   /*presentazione marche nomi */
  
   .topper-margin{
+
       margin-top: -8%;
   }
+
   .rebeccapresmar{
     width:25%;
-    
   }
+  
+  
   @media (max-width: 800px) {
    .rebeccapresmar{
     min-width: 40%;
    } 
+
+  }
+
+  .visiblepres_js{
+    display: none;
+    visibility: hidden;
+    
+  }
+  .animation_js{
+      animation: ease-in;
+      animation-duration: 7s;
 
   }
 
@@ -340,7 +357,5 @@ body{
 }
  #logojs {
     width: 60%;
-
-
     transition: 3s;
   }
