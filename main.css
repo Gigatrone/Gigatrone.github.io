@@ -295,11 +295,6 @@ body{
     visibility: hidden;
     
   }
-  .animation_js{
-      animation: ease-in;
-      animation-duration: 7s;
-
-  }
 
 /* CONTATTI */
 .contatti-color{
