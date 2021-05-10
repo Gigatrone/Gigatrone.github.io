@@ -2,12 +2,15 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+
+
+  if(window.innerWidth > 769){
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     document.getElementById("navbarjs").style.height = "80px";
    // document.getElementById("logojs").style.width = "50%";
     document.getElementById("logojs").src="images/Logobreve.png";
     //change image g&g
-  } else {
+  } else   {
     document.getElementById("navbarjs").style.height = "150px";
     document.getElementById("logojs").src="images/logoG.png";
    // document.getElementById("logojs").style.width = "60%";
@@ -19,24 +22,8 @@ function scrollFunction() {
     const element = document.querySelectorAll(".my-element");
     var i;
     for (i = 0; i < element.length; i++) {
-      if(element[i]==0)
-      element[i].classList.add('rebecca');
-      if(element[i]==1)
-      element[i].classList.add('magna-grecia');
-      if(element[i]==2)
-      element[i].classList.add('marea');
-      if(element[i]==3)
-      element[i].classList.add('bysimon');
-      if(element[i]==4)
-      element[i].classList.add('marako');
-      if(element[i]==5)
-      element[i].classList.add('timberland');
-      if(element[i]==6)
-      element[i].classList.add('antica_murrina');
-      if(element[i]==7)
-      element[i].classList.add('anellissimi');
-
-      element[i].classList.remove('visible');
+      element[i].classList.add('animazione-marche');
+      element[i].classList.remove('visible')
     }
   }
   else {
@@ -49,17 +36,38 @@ function scrollFunction() {
 
   //Animazione SFONDO marche
 
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150)
+
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200)
   {
     const sfondofade = document.querySelector(".sfondofade");
-    sfondofade.classList.remove('hidden', 'animate__animated', 'animate__fadeOutLeft','hidden');
+    sfondofade.classList.remove('hidden', 'animate__animated', 'animate__fadeOutLeft');
     sfondofade.classList.add('animate__animated', 'animate__fadeInLeft');
   }
-  else
+  else 
   {
     const sfondofade = document.querySelector(".sfondofade");
     sfondofade.classList.remove('animate__animated', 'animate__fadeInLeft');
-    sfondofade.classList.add( 'animate__animated', 'animate__fadeOutLeft','hidden');
+    sfondofade.classList.add( 'animate__animated', 'animate__fadeOutLeft');
   }
 
+} 
+
+else {
+  const element = document.querySelectorAll(".my-element");
+  var i;
+  for (i = 0; i < element.length; i++) {
+    element[i].classList.add('animate__animated', 'animate__rotateIn');
+    element[i].classList.remove('visible');
+   }
+   const sfondofade = document.querySelector(".sfondofade");
+   sfondofade.classList.remove('hidden', 'animate__animated', 'animate__fadeOutLeft','hidden');
+   sfondofade.classList.add('animate__animated','animate__fadeInLeft');
 }
+
+
+
+}
+
+
+
+

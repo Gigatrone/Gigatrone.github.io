@@ -11,12 +11,13 @@
     <script src="onclick.js"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+    <link rel="stylesheet" href="phone.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bianco upper-things shadow-lg fixed-top" id="navbarjs">
         <div class="container-fluid" >
         <!--  Show this only on mobile to medium screens  -->
-          <a class="navbar-brand d-lg-none" href="#" ><img class=" logo animate__animated animate__backInDown" src="images/Logobreve.png" id="logo" ></a>
+          <a class="navbar-brand d-lg-none navphone" href="#" ><img class=" logo animate__animated animate__backInDown" src="images/Logobreve.png" id="logo" ></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -99,22 +100,29 @@
     </div>
 
     <!-- inizio seconda page -->
-
-    <div class="container-xl ">
-
-    <p> <img class=" shadow foto-marche sfondofade hidden" src="images/Tropea2page.jpg" id="marchi">
-
-        <a> <img class=" my-element visible rebecca" src="loghi/logorebecca.png" onclick="onclicker('rebecca')"> </a>
-        <a> <img class=" my-element visible magna-grecia " src="loghi/magnagrecia.jpg" onclick="onclicker('magnagrecia')"></a>
-        <a> <img class=" my-element visible marea " src="loghi/Marea.png" onclick="onclicker('marea')" ></a>
-        <a> <img class=" my-element visible bysimon" src="loghi/bysimon.png" onclick="onclicker('bysimon')"> </a>
-        <a> <img class=" my-element visible marako" src="loghi/logo-marako.jpg" onclick="onclicker('maraco')"> </a>
-        <a> <img class=" my-element visible timberland" src="loghi/timberland-full-logo-white.svg" onclick="onclicker('timberland')"> </a>
-        <a> <img class=" my-element visible antica_murrina" src="loghi/antica_murrina.png" onclick="onclicker('antica_murrina')"> </a>
-        <a> <img class=" my-element visible anellissimi" src="loghi/anellissimi.png" onclick="onclicker('anellissimi')"> </a>
-        <!-- Manca rossoamante, blu amante, jode, e altri-->
-                                                                                                                                           
-    </p>
+        <div class="container-xl contenuto">
+          
+         <img class="foto-marche sfondofade hidden " src="images/Tropea2page.jpg"> 
+          <div class="marche-gruppo">
+        <!-- <div><img class=" shadow foto-marche sfondofade" src="images/Tropea2page.jpg" id="marchi"></div>-->
+                      
+            <img class=" my-element visible  magna-grecia " src="loghi/magnagrecia.jpg" onclick="onclicker('magnagrecia')">
+            <img class=" my-element visible  rebecca" src="loghi/logorebecca.png" onclick="onclicker('rebecca')"> 
+            <img class=" my-element visible  marea " src="loghi/Marea.png" onclick="onclicker('marea')" >
+            <section class="line-break"></section>
+            <img class=" my-element visible  bysimon" src="loghi/bysimon.png" onclick="onclicker('bysimon')"> 
+            <img class=" my-element visible  marako" src="loghi/logo-marako.jpg" onclick="onclicker('maraco')"> 
+            <img class=" my-element visible  timberland" src="loghi/timberland-full-logo-white.svg" onclick="onclicker('timberland')"> 
+            <section class="line-break"></section>
+            <img class=" my-element visible  antica_murrina" src="loghi/antica_murrina.png" onclick="onclicker('antica_murrina')"> 
+            <img class=" my-element visible  anellissimi" src="loghi/anellissimi.png" onclick="onclicker('anellissimi')">
+        
+          </div>
+        </div> 
+      
+    
+                                                                                                                                   
+    
   </div>
 
     <div class="container-fluid topper-margin">
@@ -231,12 +239,16 @@
 
   </div>
 
-  <div class="container-fluid contatti-color shadow-lg">
-    <div class="container-xl "> 
+ <div class="container-fluid contatti-color shadow-lg">
+    <div class="footer"> 
 
-      <p class="contatti"> <br>Dove trovarci: <z class="social"> Seguici su: </p>
-      <iframe class="mappa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218.5124695154357!2d15.897277332371198!3d38.677390630643174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1315717f3fb5d141%3A0xcdbb1a74f4a77efa!2sGioie%20e%20Gioielli%20Cortese!5e0!3m2!1sit!2sit!4v1619541752515!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <a class="instagram" href="https://instagram.com/gioieegioiellicortese?igshid=iz3c5a7o6ja"> <img class="logo-insta" src="images/instagram.svg" alt="instagram"> Instagram</a> 
+      <p class="contatti"> <br>Dove trovarci:
+      
+      <br><iframe class="mappa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218.5124695154357!2d15.897277332371198!3d38.677390630643174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1315717f3fb5d141%3A0xcdbb1a74f4a77efa!2sGioie%20e%20Gioielli%20Cortese!5e0!3m2!1sit!2sit!4v1619541752515!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+    </p>
+      
+      <p class="social"><br> Seguici su:<br>
+      <a class="instagram" href="https://instagram.com/gioieegioiellicortese?igshid=iz3c5a7o6ja"> <img class="logo-insta" src="images/instagram.svg" alt="instagram"> Instagram</a> </p>
 
     </div>
   </div>

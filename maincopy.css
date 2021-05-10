@@ -76,55 +76,26 @@ body{
 
 /* Marche e loghi*/
 /* La soluzione che mi viene in mente è mettere l'animation nel css, fare diverse classi e vedere se funziona meglio così */
-.contenuto{
-    width: auto;
-    
-    display: block;
-    margin-top: 20%;
-    margin-bottom: 20%;  
-}
 
 .foto-marche{
-    
-    display: flex;
-    float: inline-start;
+    position: relative;
     width: 50%;
-    justify-items: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
     z-index: -1;
-      
 }
-
-.marche-gruppo{
-    display: flex;
-    flex-wrap:wrap;
-    z-index: 0;
-    width: 50%;
-    margin-top: -37%;
-    margin-bottom: 3%;  
-    margin-left: -1%;
-    column-gap: 30%;
-}
-.marche-gruppo > img{
-    width: 28%;
-    margin:auto;
-    z-index: 0; 
-}
-
-.line-break {
-    width: 100%;
-}
-
 .animazione-marche{
     animation: rotateIn;
     animation-duration: 1.5s;
 }
 
 .rebecca{
-    display: block;
-    
-    background-color: rgb(255, 255, 255);  
-    border: solid white;
+    background-color: rgba(255, 255, 255, 0.527);
+    width: 15%;
+    margin-left: -17% ;
+    margin-top: -22%;
     z-index: 0;
+
 }
 .rebecca:hover{
 
@@ -134,7 +105,10 @@ body{
 }
 
 .magna-grecia{
-    width: 20%  !important;
+    width: 10%;
+    margin-left: -47%;
+    margin-top: -20%;
+    z-index: 0;
 
 }
 .magna-grecia:hover{
@@ -144,9 +118,12 @@ body{
 
 
 .marea{
-    background: rgba(0, 0, 0, 0.37);
-    margin-top: -15% !important;
+    width: 15%;
+    margin-left: -11%;
+    margin-top: 5%;
+    z-index: 0;
 
+    -moz-margin-start: -50%;
 }
 .marea:hover{
 
@@ -156,9 +133,14 @@ body{
 }
 
 .bysimon{
-    width: 25%  !important;
-    margin-top: 5%  !important;
-    background-color: rgba(255, 255, 255, 0.801); 
+    width: 20%;
+    
+    margin-left: -3%;
+    margin-top: -20%;
+    z-index: 0;
+
+    -moz-margin-start:-38%;
+   
     
 }
 .bysimon:hover{
@@ -167,7 +149,11 @@ body{
 }
 
 .marako{
- 
+    width: 12%;
+    margin-left: -15%;
+    margin-top: 2%;
+
+    -moz-margin-start: -33%;
 }
 .marako:hover{
     transform: scale(1.15);   
@@ -177,11 +163,12 @@ body{
 
 
 .timberland{
-    margin-top: -10% !important;
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 4%;
+    background: rgba(0, 0, 0, 0.472);
 
-    background: rgba(0, 0, 0, 0.555);
-
-  
+    -moz-margin-start: -18%;
     
 }
 .timberland:hover{
@@ -190,12 +177,10 @@ body{
 }
 
 .antica_murrina{
-    width: 35%  !important;
-    margin-top: 10% !important;
-    margin-left: 10% !important;
-    background-color: rgb(255, 255, 255);
-    border:   solid rgba(255, 255, 255, 0.753);
-    
+    width:20%;
+    margin-top: 25%;
+    margin-left: -45%;
+    background:rgba(0, 0, 0, 0.315);
 
 }
 .antica_murrina:hover{
@@ -204,11 +189,12 @@ body{
 }
 
 .anellissimi{
-    margin-left: -10% !important;
-    margin-top: 10% !important;
+    width:15%;
+    margin-top: 25%;
+    margin-left: 5%;
+
+    -moz-margin-start: -20%;
 }
-
-
 .anellissimi:hover{
     transform: scale(1.15);   
     transition-duration: 0.5s;
@@ -307,18 +293,14 @@ body{
 /* CONTATTI */
 .contatti-color{
     background:rgb(214, 214, 214);
-    height: 300px;
-    margin-top: 40%;
+    height: 500px;
+    margin-top: 15%;
 
 }
- .footer{
-     display: flex;
-     justify-content: space-around;
- }
+
 
 .contatti{
-   
-    justify-self: left;
+    
     font-size: 20pt;
     font-family:Arial, Helvetica, sans-serif;
     
@@ -327,29 +309,26 @@ body{
 }
 
 .mappa{
-    width: 90%;
-    height: auto;
+    width: 40%;
+    height: 350px;
     margin-top: 1%;
 }
 
 .social{
-    
-    justify-self: right;
     font-size: 20pt;
     font-family:Arial, Helvetica, sans-serif;  
-    white-space: nowrap;
-    
+    float: right ;
+    margin-right: 30%;   
 }
 
 .logo-insta{
-    width: 20%;
+    width: 25%;
     
   
 }
 .instagram{
-    width: 30%;
-    justify-self: right;
-    font-size: 15pt;
+    width: 15%;
+    float: right;
     margin-right: 25%;
     margin-top: 5%;
     color: black;
